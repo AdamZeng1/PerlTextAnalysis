@@ -1,4 +1,0 @@
-# DatabaseOfYoutube
-# DatabaseOfYoutube
-# DatabaseOfYoutube
-# PerlTextAnalysis
