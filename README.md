@@ -65,11 +65,11 @@ These are the specifications for your Perl program:
   the mount points in file partition_file with that filesystem type. The format of filesystem
   type in the option is the same as the filesystem type field in the file. The output of your
   program must be: 
-  Mount points with filesystem type <filesystem type>:
-  <first mount point in appearance order>
-  <second mount point in appearance order>
+  Mount points with filesystem type \<filesystem type>:
+  \<first mount point in appearance order>
+  \<second mount point in appearance order>
   …
-  <last mount point in appearance order>
+  \<last mount point in appearance order>
   Example with the example partition_file given above:
   Command line:
   partitionbrowser.pl -t ext3 partition_file
@@ -89,6 +89,6 @@ These are the specifications for your Perl program:
   partitionbrowser.pl -Z partition_file
   partitionbrowser.pl -u
   10. Zip your file partitionbrowser.pl into a file named
-  USP_<yourSurname>_<yourStudentID>.zip and submit it with the modalities specified
+  USP\_\<yourSurname>_\<yourStudentID>.zip and submit it with the modalities specified
   above. Several free zip utilities are available on the WWW. 
   
